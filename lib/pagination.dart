@@ -20,6 +20,7 @@ class PaginationPage extends StatefulWidget {
 
 }
 
+<<<<<<< HEAD
 /*class _PaginationPageState extends State<PaginationPage> {
   final scrollController = ScrollController();
 
@@ -596,6 +597,8 @@ body: BlocBuilder<PaginationPageBloc, PaginationPageState>(
     );
   }
 }*/
+=======
+>>>>>>> 4a8246d (jai shri ram)
 
 class _PaginationPageState extends State<PaginationPage> {
 //  PageController _pageController = PageController(initialPage: 1, viewportFraction: 0.4);
@@ -622,6 +625,7 @@ class _PaginationPageState extends State<PaginationPage> {
     super.initState();
   }
 
+<<<<<<< HEAD
   /* List itemname = [
     '25% Off',
     '25% Off | Ready to Ship',
@@ -660,6 +664,9 @@ class _PaginationPageState extends State<PaginationPage> {
     'Out of Stock',
     '10% Off',
   ];*/
+=======
+
+>>>>>>> 4a8246d (jai shri ram)
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.of(context).size.height;
@@ -671,6 +678,7 @@ class _PaginationPageState extends State<PaginationPage> {
         data: MediaQuery.of(context).copyWith(textScaleFactor: 1.0),
         child: Scaffold(
           backgroundColor: Colors.white,
+<<<<<<< HEAD
           /*  appBar: widget == "Shop"
               ? null
               : AppBar(
@@ -763,6 +771,9 @@ class _PaginationPageState extends State<PaginationPage> {
               ),
             ],
           ),*/
+=======
+
+>>>>>>> 4a8246d (jai shri ram)
 
           body: BlocBuilder<PaginationBloc, PaginationState>(
             builder: (context, state) {
@@ -866,12 +877,16 @@ class _PaginationPageState extends State<PaginationPage> {
                             },
                           ),
                         ),
+<<<<<<< HEAD
                         // VerticalDivider(
                         //   width: 2.0,
                         //   color: Colors.black,
                         //   indent: 10.0,
                         //   endIndent: 10.0,
                         // ),
+=======
+
+>>>>>>> 4a8246d (jai shri ram)
                         Expanded(
                           child: InkWell(
                             child: Container(
@@ -937,6 +952,7 @@ class _PaginationPageState extends State<PaginationPage> {
                           height: 10,
                         ),
                         widget == 'This Week\'s Best Sellers'
+<<<<<<< HEAD
                             ? SizedBox() /*SizedBox(
                       height: 80,
                       child: ListView.builder(
@@ -989,6 +1005,10 @@ class _PaginationPageState extends State<PaginationPage> {
                         },
                       ),
                     )*/
+=======
+                            ? SizedBox()
+
+>>>>>>> 4a8246d (jai shri ram)
                             : const SizedBox(),
                         GridView.builder(
                           physics: const NeverScrollableScrollPhysics(),
@@ -1002,6 +1022,7 @@ class _PaginationPageState extends State<PaginationPage> {
                           itemBuilder: (context, index) {
                             if (index < Utils.items.length) {
                               return InkWell(
+<<<<<<< HEAD
                                 /*  onTap: () {
                                   var img = Utils.items[index]['images'][0]['url'];
                                   var price = Utils.currencySymbol + Utils.items[index]
@@ -1105,6 +1126,9 @@ class _PaginationPageState extends State<PaginationPage> {
                                   }*/
 
                                 },*/
+=======
+
+>>>>>>> 4a8246d (jai shri ram)
                                 child: Card(
                                   color: Colors.white,
                                   shape: const RoundedRectangleBorder(
